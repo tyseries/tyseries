@@ -1,4 +1,4 @@
-### 🛠️ **Skills**
+### My Skills
 
 <flex>
 
@@ -14,6 +14,6 @@
 
 ---
 
-### 📊 **GitHub Stats**
+### GitHub Stats
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=tyseries&show_icons=true&hide_title=true&hide=prs&theme=radical)
