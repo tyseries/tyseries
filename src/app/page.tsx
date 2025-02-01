@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <div className="my-8 md:w-1/2 mx-4 md:mx-auto">
-        <div className="p-4 rounded-lg border border-slate-200">
+        <div className="p-4 rounded-lg border border-slate-200 bg-white">
           <div className="flex">
             <Image src="/icon.jpg" alt="Icon" width={100} height={100} className="aspect-square w-16 h-16 rounded-full"  />
             <div className="ml-4">
@@ -27,6 +27,12 @@ export default function Home() {
             <p className="px-2 py-0.5 rounded bg-slate-200 text-slate-600 w-fit">TypeScript</p>
             <p className="px-2 py-0.5 rounded bg-slate-200 text-slate-600 w-fit">React</p>
             <p className="px-2 py-0.5 rounded bg-slate-200 text-slate-600 w-fit">Next.js</p>
+          </div>
+        </div>
+        <div className="mt-8 p-4 rounded-lg border border-slate-200 bg-white">
+          <h2 className="text-xl font-semibold">Timeline</h2>
+          <div className="space-y-4 mt-4 ml-2">
+            <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-slate-400 mr-2" /><p>I&apos;ve launched this website. 2025/02/01</p></div>
           </div>
         </div>
       </div>
