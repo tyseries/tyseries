@@ -32,7 +32,7 @@ export default function Home() {
         <div className="mt-8 p-4 rounded-lg border border-slate-200 bg-white">
           <h2 className="text-xl font-semibold">Timeline</h2>
           <div className="space-y-4 mt-4 ml-2">
-            <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-slate-400 mr-2" /><p>I&apos;ve launched this website. 2025/02/01</p></div>
+            <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-slate-400 mr-2" /><p className="text-sm">I&apos;ve launched this website. 2025/02/01</p></div>
           </div>
         </div>
       </div>
