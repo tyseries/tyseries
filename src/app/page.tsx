@@ -30,6 +30,15 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-8 p-4 rounded-lg border border-slate-200 bg-white">
+          <h2 className="text-xl font-semibold">Projects</h2>
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link href="https://waterui.vercel.app" target="_blank" rel="noopener noreferrer" className="border border-slate-200 rounded-lg p-2 shadow-sm">
+              <h1 className="font-semibold">Water UI</h1>
+              <p className="text-sm text-slate-400 line-clamp-1">Super Easy-to-Use React UI Components</p>
+            </Link>
+          </div>
+        </div>
+        <div className="mt-8 p-4 rounded-lg border border-slate-200 bg-white">
           <h2 className="text-xl font-semibold">Timeline</h2>
           <div className="space-y-4 mt-4 ml-2">
             <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-slate-400 mr-2" /><p className="text-sm">I&apos;ve launched this website. 2025/02/01</p></div>
