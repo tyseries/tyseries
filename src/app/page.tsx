@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Home() {
   return (
     <div>
-      <div className="my-8 md:w-1/2 mx-4 md:mx-auto">
+      <div className="my-4 md:my-8 md:w-1/2 mx-4 md:mx-auto">
         <div className="p-4 rounded-lg border border-zinc-200 bg-white">
           <div className="flex">
             <Image src="/icon.jpg" alt="Icon" width={100} height={100} className="aspect-square w-16 h-16 rounded-full"  />
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="mt-8 p-4 rounded-lg border border-zinc-200 bg-white">
           <h2 className="text-xl font-bold">Timeline</h2>
           <div className="space-y-2 mt-4">
-            <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-zinc-400 mr-2" /><p>I created the <Link href="/" className="underline decoration-dashed" rel="noreferrer noopener" target="_blank">Water UI</Link>. You can install it via npm. 2025/02/06</p></div>
+            <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-zinc-400 mr-2" /><p>I created the <Link href="/" className="underline decoration-dashed text-zinc-600" rel="noreferrer noopener" target="_blank">Water UI</Link>. You can install it via npm. 2025/02/06</p></div>
             <div className="flex items-center"><div className="w-4 h-4 rounded-full border-4 aspect-square border-zinc-400 mr-2" /><p>I&apos;ve launched this website. 2025/02/01</p></div>
           </div>
         </div>
